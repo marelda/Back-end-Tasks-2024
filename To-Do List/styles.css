@@ -1,0 +1,100 @@
+body {
+    background-image: url('lemon.jpg');
+    background-size:cover; 
+    
+    background-position: center; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding:0;
+}
+#navbar
+{
+  background-color:rgb(36, 62, 54);  
+  height: 60px;
+  width: 100%;
+  display: flex;
+  padding-left: 20px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  color: aliceblue;
+  
+}
+.Heading
+{
+    height: 100px;
+    width: 30%;
+    padding-top:15px;
+    padding-left: 15px;
+    
+}
+.menu
+{
+    height: 100px;
+    width: 70%;
+}
+.menu-item    
+{
+    display: flex;
+    gap: 20%;
+    list-style-type: none;
+    margin-right: 30px;
+    align-items:center;
+    justify-content:flex-end;
+}
+.container{
+    background-color: rgb(250, 202, 82);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    z-index:1;
+    position: relative;
+}
+h1{
+    margin-bottom: 20px;
+    color: rgb(36, 62, 54);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    color:rgb(36, 62, 54);
+}
+.Task{
+    display: flex;
+    align-items: left;
+    margin-bottom: 20px;
+    justify-content:left;
+    width: 100%;
+    font-size: medium;
+}
+.task input[type="checkbox"]{
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+}
+.Add-Task{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.Add-Task input[type="text"]{
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.Add-Task button{
+    background-color: rgb(239, 237, 229);
+    border: 1cm;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
